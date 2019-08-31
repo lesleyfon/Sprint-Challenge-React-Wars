@@ -4,7 +4,6 @@ import Li from './Li';
 
 const StarWarsDiv = styled.div`
     width: 100%;
-    background: white;
     display: flex;
     flex-wrap: wrap;
 

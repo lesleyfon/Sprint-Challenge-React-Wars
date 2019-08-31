@@ -2,8 +2,16 @@ import React from 'react';
 import styled from 'styled-components';
 
 const EachCard = styled.div`
-    width: 45%;
+    width: 40%;
     display: flex;
+    padding: 0 20px 25px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    margin: 20px 20px;
+    box-shadow: 2px 2px 2px lightgrey;
+
 `;
 const Li = props =>{
     console.log(props.each)
