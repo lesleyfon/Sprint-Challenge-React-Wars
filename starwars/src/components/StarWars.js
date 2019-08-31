@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import Li from './Li';
 
 const StarWarsDiv = styled.div`
-    width: 100%;
+    width: 980px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 
